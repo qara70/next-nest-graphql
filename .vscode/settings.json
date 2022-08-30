@@ -7,13 +7,16 @@
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "cSpell.words": [
+    "Apollo",
     "author",
     "Band",
     "collect",
     "common",
+    "Driver",
     "jest",
     "libs",
     "loader",
+    "Mercurius",
     "nest",
     "parser",
     "plain",
@@ -22,6 +25,7 @@
     "reflect",
     "schematics",
     "spec",
+    "todos",
     "UNLICENSED"
   ]
 }
