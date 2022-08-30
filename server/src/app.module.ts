@@ -3,6 +3,7 @@ import { GraphQLModule } from '@nestjs/graphql';
 import path from 'path';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { TodoModule } from './todo/todo.module';
 
 @Module({
   imports: [
@@ -12,6 +13,7 @@ import { AppService } from './app.service';
       // 生成されるschemaを自動でソートするオプションの有効化
       sortSchema: true,
     }),
+    TodoModule,
   ],
   controllers: [AppController],
   providers: [AppService],
