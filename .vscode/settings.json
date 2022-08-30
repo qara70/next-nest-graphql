@@ -1,0 +1,27 @@
+{
+  "eslint.workingDirectories": ["./server"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "author",
+    "Band",
+    "collect",
+    "common",
+    "jest",
+    "libs",
+    "loader",
+    "nest",
+    "parser",
+    "plain",
+    "prettier",
+    "prod",
+    "reflect",
+    "schematics",
+    "spec",
+    "UNLICENSED"
+  ]
+}
