@@ -1,9 +1,18 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { Todo } from './models/todo.models';
+import { Todo, TodoStatus } from './models/todo.models';
 
 @Injectable()
 export class TodoService {
-  private todos: Todo[] = [];
+  private todos: Todo[] = [
+    {
+      id: '11',
+      title: 'this is title',
+      description: 'this is description',
+      status: TodoStatus.NEW,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+  ];
 
   findAll(): Todo[] {
     return this.todos;
