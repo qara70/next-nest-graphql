@@ -1,5 +1,5 @@
 {
-  "eslint.workingDirectories": ["./server"],
+  "eslint.workingDirectories": ["./server", "./front"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll": true
@@ -22,6 +22,7 @@
     "plain",
     "prettier",
     "prod",
+    "Props",
     "reflect",
     "schematics",
     "spec",
